@@ -1,4 +1,5 @@
 x# Lab 03: Git and GitHub
+
 This repository documents my practice with 
 local Git, GitHub, branches, and pull requests.
 ## README Responses
@@ -90,7 +91,7 @@ shows a list of commits
 compare file to prev commit
 
 ### 1.7 Repository link
-
+https://github.com/Landennelson06/csci388lab3
 ### 1.8 Comparing approaches
 
 In your own words:
