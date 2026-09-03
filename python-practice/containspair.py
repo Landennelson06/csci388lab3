@@ -10,7 +10,7 @@ def check(l: list):
 
 print(check([1, 2, 3, 2]))          # should print True
 print(check([5, 2, -10, 44, 90]))   # should print False
-
+print(check[5,1,7,8,9,2,3,4,1,2]))  # expected true
 
 
 
