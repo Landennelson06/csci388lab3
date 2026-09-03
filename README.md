@@ -1,5 +1,6 @@
 x# Lab 03: Git and GitHub
-
+This repository documents my practice with 
+local Git, GitHub, branches, and pull requests.
 ## README Responses
 
 ### 1.1 After initialization
@@ -21,9 +22,10 @@ drwxr-xr-x 1 landen landen 4096 Aug 25 10:20 my-app
 -rw-r--r-- 1 landen landen   14 Aug 25 10:19 readme.txt
 ```
 ### 1.2 First git status
-
+On branch main
+nothing to commit, working tree clean
 ### 1.3 After the first commit
-
+b054167 (HEAD -> main) create labs readme
 ### 1.4 git log
 
 ### 1.5 git diff
@@ -31,7 +33,45 @@ drwxr-xr-x 1 landen landen 4096 Aug 25 10:20 my-app
 Paste the `git status` and `git diff` commands and their output.
 
 How does this `git status` differ from the one in **1.2**?
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
 
+no changes added to commit (use "git add" and/or "git commit -a")
+
+diff --git a/README.md b/README.md
+index e56d7dc..2cd0f2f 100644
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,6 @@
+ x# Lab 03: Git and GitHub
+-
++This repository documents my practice with
++local Git, GitHub, branches, and pull requests.
+ ## README Responses
+
+ ### 1.1 After initialization
+@@ -21,9 +22,10 @@ drwxr-xr-x 1 landen landen 4096 Aug 25 10:20 my-app
+ -rw-r--r-- 1 landen landen   14 Aug 25 10:19 readme.txt
+ ### 1.2 First git status
+-
++On branch main
++nothing to commit, working tree clean
+ ### 1.3 After the first commit
+-
++b054167 (HEAD -> main) create labs readme
+ ### 1.4 git log
+
+ ### 1.5 git diff
+@@ -31,6 +33,15 @@ drwxr-xr-x 1 landen landen 4096 Aug 25 10:20 my-app
+ Paste the `git status` and `git diff` commands and their output.
+
+ How does this `git status` differ from the one in **1.2**?
+
+
+This status has untracked files 
 ### 1.6 Git command reflections
 
 In one or two sentences each, what does each command do?
