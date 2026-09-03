@@ -77,11 +77,17 @@ This status has untracked files
 In one or two sentences each, what does each command do?
 
 - `git init`
+creates .git files
 - `git status`
+shows current status of staging etc
 - `git add`
+adds unstaged files to staging area
 - `git commit`
+commits staged files to a commit
 - `git log`
+shows a list of commits
 - `git diff`
+compare file to prev commit
 
 ### 1.7 Repository link
 
