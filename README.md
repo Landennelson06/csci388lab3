@@ -1,4 +1,4 @@
-x# Lab 03: Git and GitHub
+# Lab 03: Git and GitHub
 
 This repository documents my practice with 
 local Git, GitHub, branches, and pull requests.
