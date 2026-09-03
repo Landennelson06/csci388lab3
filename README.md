@@ -97,8 +97,12 @@ https://github.com/Landennelson06/csci388lab3
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+Nested Loop goes thru each element and checks every other element, meaning N^2 eff
 - How does the set-based approach check for a duplicate?
+The set based approack takes a count of every element linearly, and each time checks that count.
 - What is the runtime and memory trade-off of each?
+Nested loop is better on memory, worse on runtime
+Set based is better on runtime, worse on memory.
 
 ### 1.9 Pull request merge options
 
